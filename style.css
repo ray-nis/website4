@@ -234,6 +234,7 @@ body {
 
 .showcase {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .showcase-img {
@@ -244,6 +245,29 @@ body {
 .showcase-text {
     margin-top: 40px;
     margin-bottom: 20px;
+}
+
+/* Testimonial section */
+
+.testimonial {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.test-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.test-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 1px solid #777;
 }
 
 /* Media Query */
@@ -330,5 +354,16 @@ body {
 
     #bg6 {
         order: 5;
+    }
+
+    /* Testimonial section */
+
+    .testimonial {
+        display: flex;
+        justify-content: center;
+    }
+
+    .test-container {
+        width: 30%;
     }
 }
