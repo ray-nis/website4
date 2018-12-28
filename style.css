@@ -253,6 +253,7 @@ body {
     width: 90%;
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .test-container {
@@ -268,6 +269,22 @@ body {
     margin: 0 auto;
     margin-bottom: 20px;
     border: 1px solid #777;
+}
+
+.sign-up {
+    background-image: url(img/Optimized-matteo-bernardis-428293-unsplash-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.second-header {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
 }
 
 /* Media Query */
@@ -329,7 +346,7 @@ body {
     }
 
     .showcase {
-        margin-top: 200px;
+        margin-top: 100px;
     }
 
     #bg1 {
