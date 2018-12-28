@@ -212,27 +212,39 @@ body {
 
 .titles {
     font-family: Lato;
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 34px;
+    font-weight: 700;
     margin: 10px;
+    text-align: center;
 }
 
 .pharagraphs {
     font-family: Lato;
     color: #777;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 100;
     width: 80%;
     text-align: center;
     line-height: 1.7;
+    margin: 0 auto;
     margin-bottom: 20px;
 }
 
-/* Showcase */
+/* Showcase section */
 
+.showcase {
+    margin-top: 100px;
+}
 
+.showcase-img {
+    max-width: 100%;
+    height: auto;
+}
 
-
+.showcase-text {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
 
 /* Media Query */
 
@@ -269,5 +281,54 @@ body {
     .features {
         flex-direction: row;
         width: 90%;
+    }
+
+    /* Showcase section */
+
+    .showcase {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .showcase-img {
+        width: 50%;
+        height: 450px;
+    }
+
+    .showcase-text {
+        width: 50%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .showcase {
+        margin-top: 200px;
+    }
+
+    #bg1 {
+        order: 2;
+    }
+
+    #bg2 {
+        order: 1;
+    }
+
+    #bg3 {
+        order: 3;
+    }
+
+    #bg4 {
+        order: 4;
+    }
+
+    #bg5 {
+        order: 6;
+    }
+
+    #bg6 {
+        order: 5;
     }
 }
